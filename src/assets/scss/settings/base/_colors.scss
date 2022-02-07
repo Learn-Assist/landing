@@ -1,0 +1,111 @@
+// Colors
+
+// The color palette
+$palette: (
+	light: (
+		1: #ffffff,
+		2: #f4f7fe,
+		3: #e7ebf6,
+	),
+	dark: (
+		1: #181830,
+		2: #5b6a87,
+		3: #919eb7,
+	),
+	primary: (
+		1: #f9d72f,
+		2: #ffe97af8,
+		3: #f7d00f,
+		4: #181830,
+	),
+	secondary: (
+		1: #e0a82e,
+		2: #ffcd60,
+		3: #bf8c1d,
+		4: #fffede,
+	),
+	tertiary: (
+		1: #181830,
+		2: #333368,
+		3: #181830,
+		4: #e5e7ff,
+	),
+	quaternary: (
+		1: #ff6db1,
+		2: #ffbada,
+		3: #ff3a96,
+		4: #ffe5f1,
+	),
+	alert: (
+		error: #ff9083,
+		warning: #ffc570,
+		success: #5ffad0,
+	),
+);
+
+// Base typography: color
+$color: (
+	heading: get-color(dark, 1),
+	base: get-color(dark, 2),
+	high-contrast: get-color(dark, 1),
+	mid-contrast: get-color(dark, 2),
+	low-contrast: get-color(dark, 3),
+	primary: get-color(primary, 1),
+	secondary: get-color(secondary, 1),
+	error: get-color(alert, error),
+	warning: get-color(alert, warning),
+	success: get-color(alert, success),
+	// ↓ Inverted colors
+	heading-inverse: get-color(light, 1),
+	base-inverse: get-color(dark, 3),
+	high-contrast-inverse: get-color(light, 1),
+	mid-contrast-inverse: get-color(light, 2),
+	low-contrast-inverse: get-color(light, 3),
+);
+
+// Borders and dividers: color
+$border--color: (
+	divider: get-color(light, 3),
+	divider-inverse: rgba(get-color(dark, 2), 0.32),
+);
+
+// Icons: fill color
+$icon--color: (
+	hamburger: get-color(dark, 1),
+	// hamburger icon
+	accordion: get-color(secondary, 1),
+	// accordion icon
+	social: get-color(secondary, 1),
+	// social icons
+	social-hover: get-color(secondary, 2),
+	// social icons (:hover)
+	modal: get-color(dark, 3),
+	// modal icon
+	modal-hover: get-color(dark, 2),
+	// modal icon (:hover)
+	news-more: get-color(primary, 2),
+	// news - read more link arrow
+	// ↓ Inverted colors
+	hamburger-inverse: get-color(light, 1),
+	// hamburger icon
+	accordion-inverse: get-color(light, 1),
+	// accordion icon
+	social-inverse: null,
+	// social icons
+	social-hover-inverse: null // social icons (:hover),
+);
+
+// Misc elements: background color
+$bg--color: (
+	body: get-color(light, 1),
+	body-shadow: 0 20px 48px rgba(get-color(dark, 1), 0.1),
+	// body shadow when a boxed layout is used (set to null if don't want a shadow)
+	body-outer: get-color(light, 2),
+	// outer bg color when a boxed layout is used
+	bg-color: get-color(dark, 1),
+	// .has-bg-color helper class
+	shadow: 0 32px 64px rgba(get-color(dark, 1), 0.24),
+	// .has-shadow helper class
+	code: get-color(light, 3),
+	code-inverse: darken(get-color(dark, 1), 3%),
+);
