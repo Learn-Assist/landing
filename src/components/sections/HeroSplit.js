@@ -71,8 +71,13 @@ class HeroSplit extends React.Component {
                     We help you get educated anywhere and anytime, through natural conversations filled with fun, love and powerful technologies!
                   </p>
                   <div className="reveal-from-left" data-reveal-delay="450">
-                    <Button tag="a" color="dark" href="https://app.learn-assist.me/signin" wideMobile>
+                    <Button style={{ width: "70%" }} tag="a" color="dark" href="https://app.learn-assist.me/signin" wideMobile>
                       Get Started
+                    </Button>
+                  </div>
+                  <div className="reveal-from-left" data-reveal-delay="600">
+                    <Button style={{ marginTop: 10, width: "70%" }} tag="a" color="dark" href="/about-us" wideMobile>
+                      About Us
                     </Button>
                   </div>
                 </div>
