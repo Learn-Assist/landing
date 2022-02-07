@@ -55,7 +55,7 @@ class FeaturesSplit extends React.Component {
 
     const sectionHeader = {
       title: 'Start using your personal learning assistant',
-      paragraph: 'Signup through Google / youremail. You can use it to learn new skills, improve your skills, and improve your academic profile.'
+      paragraph: 'Learning through conversations is the most effective way to learn since conversational activity is the most effective cognitive learning process as established in various studies.'
     };
 
     return (
@@ -75,7 +75,6 @@ class FeaturesSplit extends React.Component {
                   </h3>
                   <p className="m-0 reveal-from-left" data-reveal-delay="100" data-reveal-container=".split-item">
                     The only requirement to start learning with Learn Assist is a device that supports the web. You can talk to our assistant and start learning right away!
-                    Learning through conversations is the most effective way to learn, as there is communication between two sides unlike watching a educational video.
                   </p>
                 </div>
                 <div className={

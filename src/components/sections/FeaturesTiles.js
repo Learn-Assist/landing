@@ -167,7 +167,7 @@ class FeaturesTiles extends React.Component {
                       Parenting Control
                     </h4>
                     <p className="m-0 text-sm reveal-from-bottom" data-reveal-container=".tiles-item" data-reveal-delay="150">
-                      A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design for previewing layouts.
+                      Change the content for tailored for your child's learning and interests.
                     </p>
                   </div>
                 </div>

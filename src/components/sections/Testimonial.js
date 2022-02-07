@@ -76,11 +76,11 @@ class Testimonial extends React.Component {
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.
+                      Academic institution management features, to enable large acadmic insitutions to manage and improve their students' academic profile efficiently and smartly.
                     </p>
                   </div>
                   <div className="testimonial-item-footer mt-24 mb-0 pt-24 has-top-divider">
-                    <span className="testimonial-item-name text-sm fw-700">Feature 1</span>
+                    <span className="testimonial-item-name text-sm fw-700">Institution support</span>
                     <span className="testimonial-item-link text-xs fw-500">
                     </span>
                   </div>
@@ -100,11 +100,11 @@ class Testimonial extends React.Component {
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.
+                      Interactive AI generated live teacher-bot tailored for each student. It is a 3D interactive model of a virtual teacher.
                     </p>
                   </div>
                   <div className="testimonial-item-footer mt-24 mb-0 pt-24 has-top-divider">
-                    <span className="testimonial-item-name text-sm fw-700">Feature 2</span>
+                    <span className="testimonial-item-name text-sm fw-700">Teacher bot</span>
                     <span className="testimonial-item-link text-xs fw-500">
                     </span>
                   </div>
@@ -124,11 +124,11 @@ class Testimonial extends React.Component {
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.
+                      Create classrooms manages entirely by the teacher-bot, with exceptional teaching skills and interactive with all student in class.
                     </p>
                   </div>
                   <div className="testimonial-item-footer mt-24 mb-0 pt-24 has-top-divider">
-                    <span className="testimonial-item-name text-sm fw-700">Feature 3</span>
+                    <span className="testimonial-item-name text-sm fw-700">Virtual Classrooms</span>
                     <span className="testimonial-item-link text-xs fw-500">
                     </span>
                   </div>
