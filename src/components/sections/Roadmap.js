@@ -69,7 +69,7 @@ class Roadmap extends React.Component {
               <TimelineItem title="December 2021">
                 Functioning prototype, with web apps deployed.
               </TimelineItem>
-              <TimelineItem title="First quarter od 2022">
+              <TimelineItem title="First quarter of 2022">
                 Addition of data, train dialogue management, feature engineering, bug fixes.
               </TimelineItem>
             </Timeline>
